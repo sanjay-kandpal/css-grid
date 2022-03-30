@@ -4,7 +4,8 @@
   "description": "css-grid tutorial",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    
+    "start": "browser-sync start --server --watch  --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777 --browser \"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\""
   },
   "author": "sanjay_kandpal",
   "license": "ISC",
